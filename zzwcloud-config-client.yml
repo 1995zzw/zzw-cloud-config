@@ -6,7 +6,8 @@ spring:
     name: zzwcloud-config-client
 eureka:
   client:
-    service-url: http://zzw.eureka7001.com:7001/eureka/
+    service-url:
+      defaultZone: http://zzw.eureka7001.com:7001/eureka/
 ---
 server:
   port: 8202
@@ -16,4 +17,5 @@ spring:
     name: zzwcloud-config-client
 eureka:
   client:
-    service-url: http://zzw.eureka7001.com:7001/eureka/
+    service-url: 
+      defaultZone: http://zzw.eureka7001.com:7001/eureka/
