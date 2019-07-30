@@ -1,5 +1,5 @@
 ﻿server:
-  port: 8201
+  port: 8204
 spring:
   profiles: dev
   application:
@@ -8,7 +8,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://zzw.eureka7001.com:7001/eureka/
-config: haha
+config: haha123
 ---
 server:
   port: 8202
