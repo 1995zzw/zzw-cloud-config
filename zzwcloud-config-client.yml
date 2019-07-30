@@ -8,6 +8,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://zzw.eureka7001.com:7001/eureka/
+config: 你好
 ---
 server:
   port: 8202
