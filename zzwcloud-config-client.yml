@@ -1,5 +1,5 @@
 ﻿server:
-  port: 8203
+  port: 8201
 spring:
   profiles: dev
   application:
